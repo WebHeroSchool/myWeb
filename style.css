@@ -1,0 +1,29 @@
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+	body { font-size: 26px;}
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+	 body { font-size: 22px;}
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+	 body { font-size: 18px;}
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+	 body { font-size: 16px;}
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+	 body { font-size: 14px;}
+}
+
+/* Iphone 5 */
+@media (max-width: 320px) {
+	 body { font-size: 10px;}
+}
